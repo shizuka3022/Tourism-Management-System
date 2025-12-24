@@ -1,0 +1,7 @@
+.dist
+.idea
+__pycache__/
+*.pyc
+.env/
+db.yaml
+.test/

@@ -1,0 +1,37 @@
+<head>
+		<link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/styles.css') }}">
+	    <style>
+        .bg{
+        background-image: url({{ url_for('static', filename = '/img/bg2.jpg')}});
+        background-repeat: no-repeat;
+        background-size:cover;
+        padding-bottom: 500px;
+      }
+    </style>
+</head>
+<div class="content bg">
+	<h1 class="headings">ADD EMPLOYEE</h1>
+	<br>
+	<br>
+	<div class="temp1">
+	<form method="POST" action="">
+		<label >Employee ID </label>
+		<br>
+		<input type="text" placeholder="Cool cool cool cool" name="e_id" required="required" />
+		<br>
+		<label >Employee name </label>
+		<br>
+		<input type="text" placeholder="Cool cool cool cool" name="e_name" required="required" />
+		<br>
+		<label >Department </label>
+		<br>
+		<input type="text" placeholder="Cool cool cool cool " name="dept" required="required" />
+		<br>
+		<label >Role</label>
+		<br>
+		<input type="text" placeholder="Cool cool cool cool" name="role" required="required"/>
+		<br>
+		<input type="submit">
+	</form>
+	</div>
+</div>

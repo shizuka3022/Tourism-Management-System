@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<link rel="stylesheet" type="text/css" href="{{ url_for('static',filename='styles/styles.css') }}">
+	<style>
+		.bg{
+        background-image: url({{ url_for('static', filename = '/img/bg2.jpg')}});
+        background-repeat: no-repeat;
+        background-size:cover;
+      }
+	</style>
+</head>
+
+<body>
+	<div class="content bg">
+		<h1 class="headings">ADD PACKAGE</h1>
+		<br>
+		<br>
+		<div class="temp1">
+			<form method="POST" action="">
+				<label>Package ID </label>
+				<br>
+				<input type="text" placeholder="Enter an integer value " name="p_id" required="required" />
+				<br>
+				<label>Package name </label>
+				<br>
+				<input type="text" placeholder="Cool cool cool cool" name="p_name" required="required" />
+				<br>
+				<label>Days </label>
+				<br>
+				<input type="text" placeholder="Enter an integer value " name="days" required="required" />
+				<br>
+				<label>Destination</label>
+				<br>
+				<input type="text" placeholder="Cool cool cool cool" name="destination" required="required" />
+				<br>
+				<label>Price</label>
+				<br>
+				<input type="text" placeholder="Enter an integer value" name="price" required="required" />
+				<br>
+				<label>Employee Incharge ID</label>
+				<br>
+				<input type="text" placeholder="Enter an integer value" name="e_id" required="required" />
+				<br>
+				<input type="submit">
+			</form>
+		</div>
+	</div>
+</body>
+
+</html>
