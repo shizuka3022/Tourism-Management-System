@@ -1,4 +1,4 @@
-# 🌍 Tourism Management System (Flask + MySQL)
+# 🌍 Tourism Management System
 
 A **web-based Tourism Management System** developed using **Flask (Python)** and **MySQL**.
 This application allows administrators to manage **tour packages, employees, users, bookings, and enquiries** through a simple web interface.
