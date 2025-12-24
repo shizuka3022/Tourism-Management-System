@@ -111,5 +111,8 @@ This project is suitable for:
 
 ## 👩‍💻 Developed By
 
-**Najuka Pulekar**<br>
+- **Sakshi Santosh Ghodvinde**
+- **Riddhi Vikas Mirzankar**
+- **Najuka Nilesh Pulekar**
+- **Prathamesh Nandkumar Patil**
 Diploma in Computer Engineering
