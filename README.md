@@ -111,5 +111,5 @@ This project is suitable for:
 
 ## 👩‍💻 Developed By
 
-**Najuka Pulekar**
+**Najuka Pulekar**<br>
 Diploma in Computer Engineering
